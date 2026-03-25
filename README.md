@@ -57,11 +57,6 @@ is turned to the following:
 </html>
 ```
 
-## Contributing
-
-This is an early-stage project with lots of room for improvement. You are
-welcome to help out in any shape or form.
-
 ## License
 
 MIT
