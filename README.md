@@ -57,6 +57,26 @@ is turned to the following:
 </html>
 ```
 
+> [!NOTE]
+> while this is cleaner solution to the problem of HTML's verbosity, i think this
+> is still suboptimal and as such i see this as a failed experiment. this has mostly
+> to do with the fact that while the HTML part itself is now cleaner, the jinja part
+> is not. having to add `end` statements is not nice.
+> 
+> while i am in favour of lua/julia style of syntax for indentation based languages,
+> mostly because it makes things non-ambigious but there is also a case for accessibility
+> (unless things like LSP/editors itself support the syntax, the general accessibility tools
+> fail to identify the actual end of scopes), i do not think its a good solution for brace
+> styled language.
+>
+> the problems/hurdles:
+> - end blocks in jinja.
+> - having to support new syntax is different editors.
+> - lsp/editors not being able to provide a nicer editing experience.
+>
+> i am always in favor of having better tools, so if you have any ideas on how to solve
+> this with a better solution then please do contact me. i am all ears.
+
 ## License
 
 MIT
