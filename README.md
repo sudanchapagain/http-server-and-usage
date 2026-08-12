@@ -85,5 +85,5 @@ MIT
 
 ## Credits
 
-- [KDL Document Language](https://kdl.dev)
-- [kdl-rs](https://github.com/kdl-org/kdl-rs)
+- [KDL: A cuddly Document Language](https://kdl.dev)
+- [CKDL: KDL parsing library in C, Python, C++](https://github.com/tjol/ckdl)
